@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.5" height="26.5" viewBox="0 0 26.5 26.5">
+  <g id="Plus" transform="translate(0.75 0.75)">
+    <line id="Stroke-2" x1="7.156" transform="translate(8.922 12.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Stroke-3" d="M0,12.5C0,3.126,3.126,0,12.5,0S25,3.126,25,12.5,21.874,25,12.5,25,0,21.874,0,12.5Z" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+  </g>
+</svg>

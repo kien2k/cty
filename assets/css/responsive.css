@@ -1,0 +1,553 @@
+@media (max-width: 1068px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .only-sp {
+        display: none;
+    }
+
+    .hide-on-pc {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 2.6666666667vw;
+    }
+
+    body {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .hide-on-sp {
+        display: none;
+    }
+
+    .section-title {
+        font-weight: 300;
+        font-size: 6rem;
+        line-height: 2em;
+        letter-spacing: unset;
+    }
+    
+    .section-title span {
+        font-size: 2.4rem;
+        line-height: 1em;
+    }
+
+    .section-title-md {
+        font-size: 6rem;
+    }
+
+    .section-title-md span {
+        font-size: 2.4rem;
+    }
+
+    .section-title-sm {
+        font-size: 4.2rem;
+    }
+
+    .section-title-sm span {
+        font-size: 1.8rem;
+    }
+
+    .section-title-ssm {
+        font-size: 3.8rem;
+    }
+
+    .section-title-ssm span {
+        font-size: 1.6rem;
+    }
+
+    .section-title-question {
+        font-size: 3.4rem;
+    }
+
+    .section-title-question span {
+        font-size: 1.4rem;
+    }
+
+    .section-title-application {
+        font-size: 3.6rem;
+    }
+
+    
+    /* header */
+    .header {
+        height: 6.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .header .logo img {
+        width: 16rem;
+    }
+
+    .send a {
+        width: 16rem;
+        height: 3.5rem;
+    }
+
+    .send  a img {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-right: 1rem;
+    }
+
+    .send a span {
+        font-size: 1.2rem;
+    }
+
+    /* content */
+    .content {
+        margin-top: 6.5rem;
+    }
+    /* introduction */
+    .introduction .main-wraper {
+        display: block;
+        padding: 5rem 1.5rem 2rem 1.5rem;
+    }
+
+    .main-text {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .introduction .main-text__underline {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        line-height: 3.6rem;
+    }
+
+    .introduction .main-text__title-lg {
+        font-size: 2em;
+        line-height: 1.6em;
+        margin-bottom: 2rem;
+    }
+
+    .introduction .main-text__title-md {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .introduction .main-text__desc {
+        font-size: 1.3rem;
+    }
+
+    .introduction .main-image {
+        margin-right: 0;
+        text-align: center;
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .circel-yellow_border {
+        width: 10rem;
+        height: 10rem;
+        border-width: 2rem;
+        top: 1rem;
+        left: -2.5rem;
+    }
+
+    .pattern.circel-gray {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 9rem;
+        right: 3rem;
+        left: unset;
+    }
+    
+    .pattern.circel-blue {
+        width: 5rem;
+        height: 5rem;
+        top: 15rem;
+        left: 27rem;
+    }
+
+    .pattern.circel-yellow {
+        width: 6rem;
+        height: 6rem;
+        top: 63rem;
+        left: 7rem;
+    }
+
+    .pattern.square-border {
+        width: 8rem;
+        height: 8rem;
+        top: 28rem;
+        left: 27rem;
+    }
+
+    .pattern.square {
+        width: 4rem;
+        height: 4rem;
+        top: 44rem;
+        left: 25.5rem;
+    }
+
+    .circel-img {
+        width: 50rem;
+        height: 50rem;
+        bottom: 0px;
+        left: -1rem;
+    }
+
+    
+    
+    /* use */
+    .use-content {
+        padding-bottom: 5rem;
+    }
+
+    .use-desc {
+        padding: 5rem 0;
+    }
+
+    .use-desc__item {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .use-desc__item-detail {
+        font-size: 1.4rem;
+    }
+
+    .use-desc__item-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .use-desc__item-img
+     {
+        width: 25rem;
+        margin: 1.5rem auto 0;
+    }
+
+    .swap-item .use-desc__item-detail {
+        order: 0;
+    }
+
+    .use-desc::after {
+        top: 0;
+        width: calc(100% + 20rem);
+        right: 1.5rem;
+    }
+    
+    .use-desc__pattern {
+        width: 7rem;
+        height: 7rem;
+        border-width: 1.6rem;
+        top: -4rem;
+        right: -2rem;
+    }
+
+    /* pay */
+    .step {
+        display: block;
+    }
+
+    .step__detail {
+        text-align: center;
+    }
+
+    .step__number {
+        width: 10rem;
+        height: 10rem;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .step__title {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .step__desc {
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+
+    .step__image {
+        width: 26rem;
+        margin: 3rem auto 0;
+    }
+
+
+    /* features */
+    .features__content {
+        padding-top: 3rem;
+    }
+
+    .features-wrap {
+        display: block;
+    }
+
+    .feature {
+        width: 34rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .feature__item {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        height: 100%;
+    }
+
+    .feature__img img {
+        width: 8rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .feature__title {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 4rem;
+        font-weight: 700;
+    }
+
+    .feature__title::after {
+        bottom: -2rem;
+    }
+
+    .feature__desc {
+        font-size: 1.4rem;
+    }
+
+    /* .banner-contact */
+    .banner-contact {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .banner-contact__content {
+        display: block;
+        text-align: center;
+    }
+
+    .banner-contact__app {
+        width: 100%;
+    }
+
+    .banner-contact__app {
+        margin-bottom: 3rem;
+    }
+
+    .banner-contact__app-title {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .banner-contact__app-title span {
+        display: block;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .banner-contact__app-device {
+        margin-bottom: 1.8rem;
+    }
+
+    .banner-contact__app-device img {
+        height: 8rem;
+    }
+
+    .banner-contact__app-device .device-name {
+        font-size: 1.8rem;
+        line-height: 2.2em;
+    }
+
+    .banner-contact__form {
+        font-size: 2rem;
+    }
+
+    .banner-contact__form p {
+        margin-bottom: 2rem;
+    }
+
+    .banner-contact__form .action {
+        margin-top: 3rem;
+    }
+
+    .banner-contact__form .action a {
+        font-size: 1.8rem;
+        width: 30rem;
+        height: 5rem;
+    }
+
+    .banner-contact__form .action .action-icon {
+        height: 2rem;
+    }
+
+    /* review */
+    .review-item {
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .review-detail {
+        order: 2;
+    }
+
+    .review-item:nth-child(2n+1) .review-avatar {
+        width: 26rem;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .review-item:nth-child(2n) .review-avatar {
+        width: 26rem;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .review-avatar .customer {
+        left: 0;
+        width: 10rem;
+        height: 10rem;
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+
+    .review-detail {
+        font-size: 1.4rem;
+    }
+
+    .review-title {
+        padding-left: 3rem;
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .review-title::after {
+        top: 0.8rem;
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .review-detail p {
+        margin-bottom: 2rem;
+    }
+
+    .review-desc p {
+        margin-bottom: 1.4rem;
+    }
+
+    /* questions */
+    .question {
+        padding: 1rem 1rem 1rem 5.2rem;
+        font-size: 1.4rem;
+    }
+
+    .question::before {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+        left: 1rem;
+        top: 1.5rem;    
+    }
+
+    .questions__item:last-child .question::before {
+        top: 0.5rem;    
+    }
+
+    .icon-toggle {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .icon-toggle .icon-hide {
+        width: auto;
+        height: 100%;
+    }
+
+    .icon-toggle .icon-show {
+        width: auto;
+        height: 100%;
+    }
+
+    .questions__item.active .answer {
+        height: 10.3rem;
+    }
+
+    .answer {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .answer::before {
+        top: 3rem;
+        left: 1rem;
+        width: 3rem;
+        font-family: "Overpass";
+        height: 3rem;
+        font-size: 2rem;
+    }
+
+    .answer p {
+        padding: 1rem 0.5rem 1rem 5.2rem;
+    }
+
+    /* banner-bottom */
+    .banner-bottom__content {
+        font-size: 1.3rem;
+    }
+
+    .banner-bottom__content .action a {
+        font-size: 1.8rem;
+        height: 5rem;
+        width: 30rem;
+    }
+
+    .banner-bottom__content .action img {
+        margin-left: 1.5rem;
+        height: 2rem;
+    }
+
+
+
+    /* footer */
+    .footer-menu {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        line-height: 2rem;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    .footer-menu a {
+        font-size: 1.4rem;
+    }
+    
+    .footer-menu li {
+        padding-left: 2.5rem;
+        background-size: 1.6rem;
+        margin-right: 0;
+    }
+
+    .copyright {
+        line-height: 2rem;
+    }
+
+    .moveTop {
+        width: 4rem;
+        height: 4rem;
+        bottom: 2rem;
+        right: 1.5rem;
+    }
+
+    .moveTop img {
+        width: 1.6rem;
+    }
+}
