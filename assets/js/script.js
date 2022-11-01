@@ -1,4 +1,4 @@
-const questions = document.querySelectorAll(".questions__item")
+const questions = document.querySelectorAll(".questions__item .question")
 const moveTop = document.querySelector(".moveTop")
 const html = document.querySelector("html")
 
@@ -15,11 +15,10 @@ window.onscroll = function() {
     }
 }
 
-
-questions.forEach(question => {
+questions.forEach(question=> {
     question.onclick = function() {
-        this.classList.toggle("active")
-    }
+        question.closest(".questions__item").classList.toggle("active")
+}
 })
 
 AOS.init({
@@ -33,7 +32,6 @@ AOS.init({
     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
     
-  
     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
     offset: 150, // offset (in px) from the original trigger point
     delay: 500, // values from 0 to 3000, with step 50ms

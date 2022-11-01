@@ -343,7 +343,7 @@ h6 {
 }
 
 .use-desc__item-detail {
-    font-size: 2.2rem;
+    font-size: 2.2rem; 
 }
 
 .use-desc__item-title {
@@ -1028,3 +1028,190 @@ h6 {
     transform: translate(0, 0) rotate(1deg);
 }
 }
+
+/* form */
+#site-wrap {
+    margin-top: 10.2rem;
+}
+.section__contact {
+    background: #f1f1f1;
+    padding: 50px 0;
+    padding-bottom: 100px;
+}
+
+.section-title-application {
+    letter-spacing: unset;
+}
+
+.des {
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-wrap {
+    background: #fff;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 26%);
+    padding: 50px;
+}
+
+.contactform-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.contactform-item-title {
+    width: 29%;
+    background: #1877f2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 13px 0;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contactform-item-title .red {
+    color: #ffffff;
+    background: #d91c1c;
+    padding: 0.1rem 0.5rem 0.3rem;
+    font-size: 0.85em;
+}
+
+.contactform-item-data {
+    width: 68%;
+}
+
+.section__contact .contant-contact .contactform-item .contact-select-item select {
+    background-image: url("https://kaitori-brothers.net/lp/assets/img/select.png");
+    background-position: calc(100% - 20px), 100% 0;
+    background-size: 12px 7px;
+    background-repeat: no-repeat;
+}
+
+button, input[type=tel], optgroup, select, textarea,input[type=email], input[type=text] {
+    background: transparent;
+    outline: 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    line-height: 1.2;
+    color: #495057;
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+    border: 1px solid #ececec;
+    padding: 16px 10px;
+    border-radius: 5px;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.section__contact .form-wrap .radio-style label {
+    display: inline-flex;
+    position: relative;
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+    border: 1px solid #ececec;
+    padding: 16px 10px;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 15px;
+}
+
+
+input[type=radio] {
+    margin-right: 14px;
+    width: 17px;
+}
+
+/* .contact-select-item {
+    display: flex;
+} */
+
+.section__contact .form-wrap .mainlan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__contact .form-wrap .mainlan select {
+    margin-right: 7px;
+}
+
+.section__contact .form-wrap .mainlan label {
+    display: flex;
+    align-items: baseline;
+}
+
+.section__contact .form-wrap .w25 {
+    min-width: 25%;
+}
+
+.section__contact .form-wrap .w30 {
+    min-width: 30%;
+}
+
+.section__contact .form-wrap .w40 {
+    width: 40% !important;
+}
+/* .section__contact .contant-contact .radio-style label input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+} */
+
+/* .section__contact .form-wrap .radio-style label input[type=radio] + .radio-label:before {
+    content: "";
+    background: #f4f4f4;
+    border: 2px solid #1877f2;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+    top: 4px;
+    vertical-align: unset;
+} */
+
+.section__contact .form-wrap .contact_form__button {
+    width: 325px;
+    background: #252525;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    padding: 23px 50px;
+    border-radius: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section__contact .form-wrap .contact_form__button::after {
+    position: absolute;
+    content: "";
+    background: url("https://kaitori-brothers.net/lp/assets/img/a-white.png") no-repeat;
+    width: 22px;
+    height: 22px;
+    right: 15px;
+}
+
+.section__contact .form-wrap .contact_form__button:hover {
+    background: #4c4c4c;
+    transition: all 0.5s;
+}
+
+
+
