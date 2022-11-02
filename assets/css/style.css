@@ -62,6 +62,7 @@ h6 {
 
 .animation__link {
     position: relative;
+    overflow: hidden;
 }
 
 .animation__link::after {
@@ -857,7 +858,7 @@ h6 {
     width: 36rem;
 }
 
-.banner-bottom__content .action a::after {
+/* .banner-bottom__content .action a::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -865,11 +866,11 @@ h6 {
     background-color: #fff;
     left: 0;
     top: 0;
-}
+} */
 
-.banner-bottom__content .action:hover a::after {
+/* .banner-bottom__content .action:hover a::after {
     animation: send_link 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+} */
 
 .banner-bottom__content .action img {
     margin-left: 3rem;
@@ -932,6 +933,7 @@ h6 {
     z-index: 100;
     transition: all 0.3s ease-in;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .moveTop img {
@@ -978,7 +980,6 @@ h6 {
         animation: smooth 1.4s cubic-bezier(0.37, 0, 0.63, 1) both;
 -webkit-clip-path: inset(0 100% 0 0);
         clip-path: inset(0 100% 0 0);
-/* display: inline-block; */
 }
 
 @keyframes smooth {
@@ -1213,5 +1214,32 @@ input[type=radio] {
     transition: all 0.5s;
 }
 
+/* thanks */
+.section__thanks {
+    text-align: center;
+}
+
+.back-top {
+    width: 26.2rem;
+    height: 5.5rem;
+    background-color:green;
+    margin: 5rem auto;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-top:hover {
+    opacity: 0.7;
+}
+
+.thanks-text {
+    font-weight: 700;
+}
+
+.back-top a {
+    color: #fff;
+
+}
 
 

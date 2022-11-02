@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+  <style>
+    .error{
+      font-size: 13px;
+      color: red;
+      font-weight: bold;
+    }
+  </style>
     <div class="header">
         <div class="logo">
-            <a href="https://kaitori-brothers.net/lp">
+            <a href="./index.html">
                 <img src="./assets/img/Group 665.png" alt="買取ブラザーズ"></a> 
         </div>
         <div class="send">
@@ -38,7 +45,7 @@
                   </dt>
                   <dd class="contactform-item-data ">
                     <select required name="tobuy">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="iPhone">iPhone</option>
                       <option value="Android">Android</option>
                       <option value="タブレット">タブレット</option>
@@ -52,7 +59,7 @@
                   </dt>
                   <dd class="contactform-item-data ">
                     <select required name="howbuy">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="フォトプラン：先にアイテムを撮影して査定">フォトプラン：先にアイテムを撮影して査定</option>
                       <option value="デリバリープラン：先にアイテムを送り査定">デリバリープラン：先にアイテムを送り査定</option>
                     </select>
@@ -283,7 +290,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="mrent">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="無し">無し</option>
                       <option value="5万円未満">5万円未満</option>
                       <option value="5万円～10万円未満">5万円～10万円未満</option>
@@ -324,7 +331,7 @@
                     <label>携帯電話番号 <span class="red">必須</span> </label>
                   </dt>
                   <dd class="contactform-item-data">
-                    <input type="tel" name="numphone" maxlength="11" pattern="\d{10,11}" class="contactform-input-text" placeholder="" required>
+                    <input type="text" name="numphone"  class="contactform-input-text" placeholder="" required>
                   </dd>
                 </dl>
                 <dl class="contactform-item">
@@ -364,7 +371,7 @@
                     <label>緊急連絡先携帯<br class="ipadsp">電話番号 <span class="red">必須</span> </label>
                   </dt>
                   <dd class="contactform-item-data">
-                    <input type="tel" name="emernum" maxlength="11" pattern="\d{10,11}" class="contactform-input-text" placeholder="" required>
+                    <input type="text" name="emernum" class="contactform-input-text" placeholder="" required>
                   </dd>
                 </dl>
                 <dl class="contactform-item">
@@ -404,7 +411,7 @@
                     <label>常駐先固定電話番号 <span class="red">必須</span> </label>
                   </dt>
                   <dd class="contactform-item-data">
-                    <input type="tel" maxlength="11" pattern="\d{10,11}" name="resinum" class="contactform-input-text" placeholder="" required>
+                    <input type="text" name="resinum" class="contactform-input-text" placeholder="" required>
                   </dd>
                 </dl>
                 <dl class="contactform-item">
@@ -413,7 +420,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="takehome">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="1万円">1万円</option>
                       <option value="2万円">2万円</option>
                       <option value="3万円">3万円</option>
@@ -453,7 +460,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="payday">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="1日">1日</option>
                       <option value="2日">2日</option>
                       <option value="3日">3日</option>
@@ -525,7 +532,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="numemp">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="10人以下">10人以下</option>
                       <option value="11人～50人">11人～50人</option>
                       <option value="51人～100人">51人～100人</option>
@@ -541,7 +548,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="fromemp">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="正社員">正社員</option>
                       <option value="契約社員">契約社員</option>
                       <option value="派遣社員">派遣社員</option>
@@ -556,7 +563,7 @@
                   </dt>
                   <dd class="contactform-item-data contact-select-item">
                     <select required name="service">
-                      <option value="" disabled>選択してください</option>
+                      <option value="" selected disabled="">選択してください</option>
                       <option value="1年未満">1年未満</option>
                       <option value="2年">2年</option>
                       <option value="3年">3年</option>
@@ -617,7 +624,8 @@
     <!-- end footer -->
     <div class="moveTop"><img src="./assets/img/Group 668.png" alt="movetop"></div>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
 <script src="./sendmail.js"></script>
 
 </html>

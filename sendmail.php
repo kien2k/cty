@@ -175,7 +175,7 @@ try {
     $mail->addAddress($gmailAdmin);                               
     $mail->Subject = $admin_title;
     $mail->Body    = $mailAdmin;
-    echo 'Message has been sent';
+    header("Location: thanks.html");
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
