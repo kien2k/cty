@@ -138,10 +138,10 @@ if(isset($_POST["email"]) && isset($_POST["name"])){
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'C:/xampp/htdocs/webcty-master/assets/php/PHPMailer/src/Exception.php';
-require 'C:/xampp/htdocs/webcty-master/assets/php/PHPMailer/src/PHPMailer.php';
-require 'C:/xampp/htdocs/webcty-master/assets/php/PHPMailer/src/SMTP.php';
-require 'C:/xampp/htdocs/webcty-master/assets/php/PHPMailer/src/POP3.php';
+require 'C:/xampp/htdocs/web1_kien/assets/php/PHPMailer/src/Exception.php';
+require 'C:/xampp/htdocs/web1_kien/assets/php/PHPMailer/src/PHPMailer.php';
+require 'C:/xampp/htdocs/web1_kien/assets/php/PHPMailer/src/SMTP.php';
+require 'C:/xampp/htdocs/web1_kien/assets/php/PHPMailer/src/POP3.php';
 
 $mail = new PHPMailer(true);
 $mail->CharSet = "UTF-8";
